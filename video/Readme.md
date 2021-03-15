@@ -2,6 +2,12 @@
 - ロボットアームの順運動学：原理（日本語）
 	- Robot-Arm-Kinematics-Principle-Japanese.mp4
 	- https://youtu.be/cbrTfmFsgWE
+- ロボットアームの順運動学：Matlabによる実装（日本語）
+	- Robot-Arm-Kinematics-Matlab-Japanese.mp4
+	- https://youtu.be/VF-3ZfYvwP0
+- ロボットアームの順運動学：C++による実装（日本語）
+	- Robot-Arm-Kinematics-CPP-Japanese.mp4
+	- 
 - Robot Arm Forward Kinematics: Principle (English)
 	- Robot-Arm-Kinematics-Principle-English.mp4
 	- https://youtu.be/DuNCG9GQ1e4
