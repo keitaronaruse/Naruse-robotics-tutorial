@@ -2,7 +2,7 @@
     fk-3link-planar.cc
         Sample c++ source code of forward kinematics of 3-link planar robot arm
         Author: Keitaro Naruse
-        Date:   2021-03-13
+        Date:   2021-03-16
         Required external library: Eigen
         The MIT License
 */
@@ -78,10 +78,8 @@ int main()
     //  Forward kinematics solution
     p = fk(q);
 
-    //  Console out the joint angle vector
-    std::cout << q << std::endl;
-
     //  Console out the pose matrix = a vector of poses
-    std::cout << p << std::endl;
+    //  For plotting, we transpose it 
+    std::cout << p.transpose() << std::endl;
     return(0);
 }
