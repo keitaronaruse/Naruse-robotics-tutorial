@@ -7,7 +7,7 @@
 	- https://youtu.be/VF-3ZfYvwP0
 - ロボットアームの順運動学：C++による実装（日本語）
 	- Robot-Arm-Kinematics-CPP-Japanese.mp4
-	- 
+	- https://youtu.be/c0pwDBhG2Ug
 - Robot Arm Forward Kinematics: Principle (English)
 	- Robot-Arm-Kinematics-Principle-English.mp4
 	- https://youtu.be/DuNCG9GQ1e4
