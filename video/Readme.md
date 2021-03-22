@@ -1,13 +1,17 @@
 # Video is also availabe at youtube
-- ƒƒ{ƒbƒgƒA[ƒ€‚Ì‡‰^“®ŠwFŒ´—i“ú–{Œêj
-	- Robot-Arm-Kinematics-Principle-Japanese.mp4
+- ãƒ­ãƒœãƒƒãƒˆã‚¢ãƒ¼ãƒ ã®é †é‹å‹•å­¦ï¼šåŸç†ï¼ˆæ—¥æœ¬èªï¼‰
+	- Robot-Arm-Forward-Kinematics-Principle-Japanese.mp4
 	- https://youtu.be/cbrTfmFsgWE
-- ƒƒ{ƒbƒgƒA[ƒ€‚Ì‡‰^“®ŠwFMatlab‚É‚æ‚éÀ‘•i“ú–{Œêj
-	- Robot-Arm-Kinematics-Matlab-Japanese.mp4
+- ãƒ­ãƒœãƒƒãƒˆã‚¢ãƒ¼ãƒ ã®é †é‹å‹•å­¦ï¼šMatlabã«ã‚ˆã‚‹å®Ÿè£…ï¼ˆæ—¥æœ¬èªï¼‰
+	- Robot-Arm-Forward-Kinematics-Matlab-Japanese.mp4
 	- https://youtu.be/VF-3ZfYvwP0
-- ƒƒ{ƒbƒgƒA[ƒ€‚Ì‡‰^“®ŠwFC++‚É‚æ‚éÀ‘•i“ú–{Œêj
-	- Robot-Arm-Kinematics-CPP-Japanese.mp4
+- ãƒ­ãƒœãƒƒãƒˆã‚¢ãƒ¼ãƒ ã®é †é‹å‹•å­¦ï¼šC++ã«ã‚ˆã‚‹å®Ÿè£…ï¼ˆæ—¥æœ¬èªï¼‰
+	- Robot-Arm-Forward-Kinematics-CPP-Japanese.mp4
 	- https://youtu.be/c0pwDBhG2Ug
+
 - Robot Arm Forward Kinematics: Principle (English)
-	- Robot-Arm-Kinematics-Principle-English.mp4
+	- Robot-Arm-Forward-Kinematics-Principle-English.mp4
 	- https://youtu.be/DuNCG9GQ1e4
+- Robot Arm Forward Kinematics Matlab Code (English)
+	- Robot-Arm-Forward-Kinematics-Matlab-English.mp4
+	- https://youtu.be/ZsuKLuy-9II
