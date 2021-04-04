@@ -15,3 +15,7 @@
 - Robot Arm Forward Kinematics Matlab Code (English)
 	- Robot-Arm-Forward-Kinematics-Matlab-English.mp4
 	- https://youtu.be/ZsuKLuy-9II
+- Robot Arm Forward Kinematics C++ Code (English)
+	- Robot-Arm-Forward-Kinematics-CPP-English.mp4
+	- https://youtu.be/JN4O-ekQGp0
+
