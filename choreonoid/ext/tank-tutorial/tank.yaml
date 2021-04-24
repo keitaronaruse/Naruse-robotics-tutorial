@@ -1,0 +1,97 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: SimpleTank
+
+links:
+  -
+    name: CHASSIS
+    translation: [ 0, 0, 0 ]
+    jointType: free
+    centerOfMass: [ 0, 0, 0 ]
+    mass: 8.0
+    intertia: [
+      0.1, 0,   0,
+      0,   0.1, 0,
+      0,   0,   0.5 
+    ]
+    elements:
+      Shape:
+        geometry: 
+          type: Box
+          size: [ 0.45, 0.3, 0.1 ]
+        appearance: &BodyAppearance
+          material:
+            diffuseColor: [ 0, 0.6, 0 ]
+            specularColor: [ 0.2, 0.8, 0.2 ]
+            shininess: 0.6
+  -
+    name: TURRET_Y
+    parent: CHASSIS
+    translation: [ -0.04, 0, 0.1 ]
+    jointType: revolute
+    jointAxis: -Z
+    jointRange: unlimited
+    maxJointVelocity: 90
+    jointId: 0
+    centerOfMass: [ 0, 0, 0.025 ]
+    mass: 4.0
+    inertia: [
+      0.1, 0,   0, 
+      0,   0.1, 0,
+      0,   0,   0.1 
+    ]
+    elements:
+      Shape: 
+        geometry:
+          type: Box
+          size: [ 0.2, 0.2, 0.1 ]
+        appearance: *BodyAppearance
+  -
+    name: TURRET_P
+    parent: TURRET_Y
+    translation: [ 0, 0, 0.05 ]
+    jointType: revolute
+    jointAxis: -Y
+    jointRnage: [ -10, 45 ]
+    jointId: 1
+    elements:
+      -
+        # Turret
+        type: RigidBody
+        centerOfMadd: [0, 0, 0]
+        mass: 3.0
+        inertia: [
+          0.1, 0,   0, 
+          0,   0.1, 0,
+          0,   0,   0.1
+        ]
+        elements: 
+          Shape: 
+            geometry: 
+              type: Cylinder
+              height: 0.1
+              radius: 0.1
+            appearance: *BodyAppearance
+      -
+        # Gun
+        type: Transform
+        translation: [ 0.2, 0, 0 ]
+        rotation: [ 0, 0, 1, 90 ]
+        elements: 
+          RigidBody:
+            centerOfMass: [ 0, 0, 0 ]
+            mass: 1.0
+            inertia: [
+              0.01, 0,   0,
+              0,    0.1, 0, 
+              0,    0,   0.1
+            ]
+            elements: 
+              Shape: 
+                geometry: 
+                  type: Cylinder
+                  height: 0.2
+                  radius: 0.02
+                  appearance: *BodyAppearance
+                  
